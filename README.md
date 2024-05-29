@@ -12,7 +12,7 @@ https://blog.csdn.net/CKT_GOD/article/details/134076065 完整合体运用教程
 
 安装好后确保burp处在打开状态
 
-![image-20240529191446921](../image-20240529191446921.png)
+![image-20240529191446921](https://github.com/1nyg/NYG/blob/main/image-20240529191354671.png)
 
 进入体育公众号点击理论考试
 
