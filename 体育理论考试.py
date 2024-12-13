@@ -2,12 +2,12 @@ import requests
 import re
 
 def get_score(s3_data,token):
-    url = 'http://ygty.tzc.edu.cn/WeiXin/Handle/WeiXin.ashx'
+    url = 'http://ygty.****.edu.cn/WeiXin/Handle/WeiXin.ashx'
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090a13) XWEB/9129 Flue',
         'Content-Type': 'application/x-www-form-urlencoded',
-        'Origin': 'http://ygty.tzc.edu.cn',
-        'Referer': 'http://ygty.tzc.edu.cn/WeiXin/EXPaper.aspx',
+        'Origin': 'http://ygty.****.edu.cn',
+        'Referer': 'http://ygty.****.edu.cn/WeiXin/EXPaper.aspx',
         'Accept-Encoding': 'gzip, deflate',
         'Accept-Language': 'zh-CN,zh;q=0.9',
         'Cookie': f'userinfos=userid={token}&userroleid=9'
