@@ -3,7 +3,7 @@ import re
 
 
 token=input("请输入你的token：\n")
-url = 'http://ygty.tzc.edu.cn/WeiXin/EXTest2.aspx'
+url = 'http://****.***.edu.cn/WeiXin/EXTest2.aspx'
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090a13) XWEB/9129 Flue',
     'Referer': 'http://ygty.tzc.edu.cn/WeiXin/Skip.aspx?code=061MJzGa1mXZvH0Z8dIa18JPe32MJzGa&state=llks',
