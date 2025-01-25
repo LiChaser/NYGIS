@@ -2,7 +2,7 @@ import requests
 import re
 
 def get_score(s3_data,token):
-    url = 'http://ygty.****.edu.cn/WeiXin/Handle/WeiXin.ashx'
+    url = 'http://****.****.edu.cn/WeiXin/Handle/WeiXin.ashx'
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090a13) XWEB/9129 Flue',
         'Content-Type': 'application/x-www-form-urlencoded',
