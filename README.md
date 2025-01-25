@@ -18,7 +18,8 @@ https://blog.csdn.net/CKT_GOD/article/details/134076065 完整合体运用教程
 
 我们发现burp亮起抓到了数据，这里最为重要的就是userinfos的参数，就是你账号的认证信息，仔细看参数到&(包括&）后面的数据是不要的，需要自己识别。
 
-![image-20240529191908383](https://github.com/1nyg/NYG/blob/main/image-20240529191908383.png)
+![image](https://github.com/user-attachments/assets/5172f305-a34e-4c98-9f4f-4113d017e870)
+
 
 拿到cookie后运行脚本1，可以看到分数通过暴力可以增长(其实可以通过算法加快速度很多)，这里默认是98分，第一个参数由于格式问题为了方便没调，prev就是第一个参数,这里默认第一个不参与验证爆破，如果需要满分,通过调整这里的prev_data参数看第一个输出得分是否能达到4即可。
 
